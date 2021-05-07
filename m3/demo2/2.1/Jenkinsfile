@@ -1,5 +1,5 @@
 library identifier: 'jenkins-pipeline-demo-library@master', 
-        retriever: modernSCM([$class: 'GitSCMSource', remote: 'https://github.com/sixeyed/jenkins-pipeline-demo-library.git'])
+        retriever: modernSCM([$class: 'GitSCMSource', remote: 'https://github.com/mohammed-gaber-ramadan/jenkins-pipeline-demo-library.git'],credentialsId: 'mohammed-gaber-ramadan')
 
 pipeline {
     agent any
